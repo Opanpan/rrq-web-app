@@ -29,16 +29,16 @@ export default function FoooterItem() {
             <Col className="col-auto">
               <ul>
                 <li className="li-title">REX REGUM QEON</li>
-                <li className="li-item">About</li>
-                <li className="li-item">Match</li>
-                <li className="li-item">News</li>
-                <li className="li-item">Videos</li>
-                <li className="li-item">Shop</li>
-                <li className="li-item">Partners</li>
-                <li className="li-item">Brand Ambassador</li>
-                <li className="li-item">RRQ Kingdom</li>
-                <li className="li-item">RRQ Academy</li>
-                <li className="li-item">Contact</li>
+                <li>About</li>
+                <li>Match</li>
+                <li>News</li>
+                <li>Videos</li>
+                <li className="li-title">Shop</li>
+                <li className="li-title">Partners</li>
+                <li>Brand Ambassador</li>
+                <li>RRQ Kingdom</li>
+                <li>RRQ Academy</li>
+                <li>Contact</li>
               </ul>
             </Col>
             <Col className="col-auto">
