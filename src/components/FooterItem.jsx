@@ -27,19 +27,17 @@ export default function FoooterItem() {
               <Image src={Logo} />
             </Col>
             <Col className="col-auto">
-              <ul>
-                <li className="li-title">REX REGUM QEON</li>
-                <h5>About</h5>
-                <h5>Match</h5>
-                <h5>News</h5>
-                <h5>Videos</h5>
-                <h5>Shop</h5>
-                <h5>Partners</h5>
-                <h5>Brand Ambassador</h5>
-                <h5>RRQ Kingdom</h5>
-                <h5>RRQ Academy</h5>
-                <h5>Contact</h5>
-              </ul>
+              <h4>REX REGUM QEON</h4>
+              <h5>About</h5>
+              <h5>Match</h5>
+              <h5>News</h5>
+              <h5>Videos</h5>
+              <h5>Shop</h5>
+              <h5>Partners</h5>
+              <h5>Brand Ambassador</h5>
+              <h5>RRQ Kingdom</h5>
+              <h5>RRQ Academy</h5>
+              <h5>Contact</h5>
             </Col>
             <Col className="col-auto">
               <ul>
