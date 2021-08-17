@@ -27,19 +27,23 @@ export default function FoooterItem() {
               <Image src={Logo} />
             </Col>
             <Col className="col-auto">
-              <div>
-                <h4>REX REGUM QEON</h4>
-                <h5>About</h5>
-                <h5>Match</h5>
-                <h5>News</h5>
-                <h5>Videos</h5>
-                <h5>Shop</h5>
-                <h5>Partners</h5>
-                <h5>Brand Ambassador</h5>
-                <h5>RRQ Kingdom</h5>
-                <h5>RRQ Academy</h5>
-                <h5>Contact</h5>
-              </div>
+              <ul>
+                <div className="li-title">
+                  <li>REX REGUM QEON</li>
+                </div>
+                <div className="li-item">
+                  <li>About</li>
+                  <li>Match</li>
+                  <li>News</li>
+                  <li>Videos</li>
+                  <li>Shop</li>
+                  <li>Partners</li>
+                  <li>Brand Ambassador</li>
+                  <li>RRQ Kingdom</li>
+                  <li>RRQ Academy</li>
+                  <li>Contact</li>
+                </div>
+              </ul>
             </Col>
             <Col className="col-auto">
               <ul>
@@ -58,12 +62,13 @@ export default function FoooterItem() {
             </Col>
             <Col className="col-auto">
               <ul>
-                <li className="li-title">FOLLOW US</li>
-
-                <div className="d-flex justify-content-between">
-                  <Image className="li-item" src={Instagram} />
-                  <Image className="li-item" src={Facebook} />
-                  <Image className="li-item" src={Youtube} />
+                <div className="li-title">
+                  <li>FOLLOW US</li>
+                </div>
+                <div className="d-flex justify-content-between li item">
+                  <Image className="img-item" src={Instagram} />
+                  <Image className="img-item" src={Facebook} />
+                  <Image className="img-item" src={Youtube} />
                 </div>
               </ul>
             </Col>

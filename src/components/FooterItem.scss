@@ -10,7 +10,6 @@
   li {
     list-style-type: none;
     color: white;
-    opacity: 100%;
   }
 }
 
@@ -27,5 +26,13 @@
 
       cursor: pointer;
     }
+  }
+}
+
+.img-item {
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+    transition: 100ms;
   }
 }
