@@ -23,7 +23,7 @@ export default function FirstContent() {
               className="d-flex justify-content-center align-items-center"
             >
               <h4 className="d-inline">
-                <a href="#">Selengkapnya</a>
+                <a href="#selengkapnya">Selengkapnya</a>
               </h4>
               <Image className="d-inline" src={Vector} />
             </div>

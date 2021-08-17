@@ -27,17 +27,19 @@ export default function FoooterItem() {
               <Image src={Logo} />
             </Col>
             <Col className="col-auto">
-              <h4>REX REGUM QEON</h4>
-              <h5>About</h5>
-              <h5>Match</h5>
-              <h5>News</h5>
-              <h5>Videos</h5>
-              <h5>Shop</h5>
-              <h5>Partners</h5>
-              <h5>Brand Ambassador</h5>
-              <h5>RRQ Kingdom</h5>
-              <h5>RRQ Academy</h5>
-              <h5>Contact</h5>
+              <div>
+                <h4>REX REGUM QEON</h4>
+                <h5>About</h5>
+                <h5>Match</h5>
+                <h5>News</h5>
+                <h5>Videos</h5>
+                <h5>Shop</h5>
+                <h5>Partners</h5>
+                <h5>Brand Ambassador</h5>
+                <h5>RRQ Kingdom</h5>
+                <h5>RRQ Academy</h5>
+                <h5>Contact</h5>
+              </div>
             </Col>
             <Col className="col-auto">
               <ul>
@@ -55,9 +57,9 @@ export default function FoooterItem() {
                 <li className="li-title">FOLLOW US</li>
 
                 <div className="d-flex justify-content-between">
-                  <Image className="footer-socmed li-item " src={Instagram} />
-                  <Image className="footer-socmed li-item " src={Facebook} />
-                  <Image className="footer-socmed li-item " src={Youtube} />
+                  <Image className="li-item" src={Instagram} />
+                  <Image className="li-item" src={Facebook} />
+                  <Image className="li-item" src={Youtube} />
                 </div>
               </ul>
             </Col>
