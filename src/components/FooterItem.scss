@@ -10,14 +10,15 @@
   li {
     color: white;
     list-style-type: none;
-    h5 {
-      opacity: 60%;
-      color: white;
-      margin-bottom: 4px;
-      &:hover {
-        opacity: 100%;
-        cursor: pointer;
-      }
+  }
+
+  h5 {
+    opacity: 60%;
+    color: white;
+    margin-bottom: 4px;
+    &:hover {
+      opacity: 100%;
+      cursor: pointer;
     }
   }
 }
