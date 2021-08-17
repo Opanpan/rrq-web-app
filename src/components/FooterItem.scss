@@ -1,0 +1,42 @@
+.footer-item-container {
+  background-color: #363636;
+  padding: 30px;
+
+  li {
+    color: white;
+    list-style-type: none;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+    :hover {
+      cursor: pointer;
+      color: white;
+      opacity: 100%;
+    }
+  }
+}
+
+.li-title {
+  font-weight: 700;
+  margin-bottom: 8px;
+
+  li {
+    opacity: 100%;
+  }
+}
+
+.li-item {
+  font-weight: 300;
+  margin-bottom: 4px;
+
+  li {
+    opacity: 60%;
+  }
+}
+
+.footer-socmed:hover {
+  transform: scale(1.5);
+  transition: 100ms;
+}

@@ -1,0 +1,55 @@
+.header {
+  margin: 17px 0;
+}
+
+.logo {
+  @media screen and (max-width: 425px) {
+    width: 57px;
+    height: 41px;
+  }
+}
+
+.logo-2 {
+  position: relative;
+  bottom: 15px;
+  @media screen and (max-width: 425px) {
+    width: 96px;
+    height: 58px;
+  }
+}
+
+.socmed {
+  margin-right: 24px;
+  &:hover {
+    transform: scale(1.5);
+    transition: 100ms;
+  }
+}
+
+.btn-login-member {
+  background-color: #f3aa36;
+  border-color: #f3aa36;
+  width: 145px;
+  height: 30px;
+  text-align: center;
+  padding: 0;
+  &:hover {
+    background-color: #fcce83;
+    border-color: #fcce83;
+  }
+  &:active {
+    background-color: #ad7d2f;
+    border-color: #ad7d2f;
+  }
+}
+
+h5 {
+  font-size: 14px;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin-right: 5%;
+}

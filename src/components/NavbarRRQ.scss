@@ -1,0 +1,49 @@
+.navbarposition {
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
+.navbarRRQ {
+  background-color: #f6f6f6;
+  height: 47px;
+
+  a {
+    margin-right: 40px;
+    color: #616161;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+    position: relative;
+
+    &:hover {
+      color: black;
+    }
+
+    @media screen and (max-width: 425px) {
+      font-size: 9px;
+      margin-right: 10px;
+    }
+    @media screen and (max-width: 728px) {
+      font-size: 12px;
+      margin-right: 10px;
+    }
+  }
+
+  a:after {
+    content: "";
+    position: absolute;
+    background-color: #b32125;
+    height: 4px;
+    width: 0;
+    left: 0;
+    bottom: -15px;
+    transition: 0.3s;
+    border-radius: 2px 2px 0 0;
+  }
+
+  a:hover:after {
+    width: 100%;
+  }
+}

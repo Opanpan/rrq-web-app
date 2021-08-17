@@ -1,0 +1,34 @@
+.footer-container {
+  margin-top: 96px;
+}
+
+.img-title {
+  position: relative;
+  bottom: 100px;
+  @media screen and (max-width: 425px) {
+    bottom: 30px;
+  }
+  @media screen and (max-width: 425px) {
+    bottom: 30px;
+  }
+
+  a {
+    color: #b32125;
+
+    &:hover {
+      color: #eb373d;
+      cursor: pointer;
+    }
+  }
+
+  h1 {
+    text-align: center;
+    margin: 0;
+    @media screen and (max-width: 320px) {
+      font-size: 10px;
+    }
+    @media screen and (max-width: 425px) {
+      font-size: 12px;
+    }
+  }
+}

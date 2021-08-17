@@ -1,0 +1,72 @@
+.slides .slick-prev,
+.slides .slick-next {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+}
+
+.slides {
+  position: relative;
+}
+
+.slides .slick-prev,
+.slides .slick-next {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+}
+
+.slides .slick-prev {
+  left: 5%;
+}
+
+.slides .slick-next {
+  right: 5%;
+}
+
+// DOTS
+
+.carousel-rrq {
+  .button__bar {
+    position: relative;
+    bottom: 50px;
+  }
+}
+
+.button__bar {
+  display: inline-block;
+  vertical-align: middle;
+  margin: auto;
+  padding: 0;
+  border-radius: 40px;
+  width: 100%;
+  text-align: center;
+}
+
+.button__bar li {
+  list-style: none;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 10px;
+  padding: 0;
+}
+
+.button__bar li button {
+  border: none;
+  border: 1px solid #b32125;
+  cursor: pointer;
+  display: block;
+  height: 12px;
+  width: 12px;
+  border-radius: 100%;
+}
+
+.button__bar li.slick-active button {
+  background-color: #b32125;
+}
+
+.button__bar li button:hover,
+.button__bar li button:focus {
+  background: #b32125;
+  outline: 0;
+}

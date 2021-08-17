@@ -1,0 +1,55 @@
+.event-container {
+  width: 100%;
+
+  h2 {
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  h5 {
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 400;
+  }
+}
+
+.btn-live {
+  width: 72px;
+  height: 18px;
+  font-size: 12px;
+  padding: 0;
+  border-radius: 40px;
+  background-color: #7c1cc7;
+  margin-bottom: 8px;
+}
+
+.btn-watch {
+  width: 150px;
+  height: 36px;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: white;
+  border-color: black;
+  color: black;
+  padding: 0;
+  margin-top: 24px;
+}
+
+.schedule {
+  width: 80%;
+}
+
+.event-img {
+  width: 100%;
+  @media screen and (max-width: 768px) {
+    width: 100vw;
+  }
+}
+
+.event-detail {
+  width: 100%;
+  @media screen and (max-width: 1024px) {
+    width: 100vw;
+    margin-top: 18px;
+  }
+}
