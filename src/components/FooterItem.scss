@@ -1,11 +1,6 @@
 .footer-item-container {
   background-color: #363636;
   padding: 30px;
-
-  li {
-    color: white;
-    list-style-type: none;
-  }
 }
 
 .li-title {
@@ -13,17 +8,24 @@
   margin-bottom: 8px;
 
   li {
+    list-style-type: none;
+    color: white;
     opacity: 100%;
   }
 }
 
 .li-item {
-  font-weight: 300;
-  margin-bottom: 4px;
-  opacity: 60%;
+  li {
+    color: white;
+    list-style-type: none;
+    font-size: 14px;
+    opacity: 60%;
+    margin-bottom: 4px;
+    font-weight: 400;
 
-  &:hover {
-    opacity: 100%;
-    cursor: pointer;
+    &:hover {
+      opacity: 100%;
+      cursor: pointer;
+    }
   }
 }

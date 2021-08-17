@@ -43,13 +43,17 @@ export default function FoooterItem() {
             </Col>
             <Col className="col-auto">
               <ul>
-                <li className="li-title">DIVISION</li>
-                <li className="li-item">Mobile Legend</li>
-                <li className="li-item">PUBG Mobile</li>
-                <li className="li-item">FREE FIRE</li>
-                <li className="li-item">VALORANT</li>
-                <li className="li-item">FIFA</li>
-                <li className="li-item">FORTNITE</li>
+                <div className="li-title">
+                  <li>DIVISION</li>
+                </div>
+                <div className="li-item">
+                  <li>Mobile Legend</li>
+                  <li>PUBG Mobile</li>
+                  <li>FREE FIRE</li>
+                  <li>VALORANT</li>
+                  <li>FIFA</li>
+                  <li>FORTNITE</li>
+                </div>
               </ul>
             </Col>
             <Col className="col-auto">
