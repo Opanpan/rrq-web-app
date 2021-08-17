@@ -16,15 +16,15 @@
 
 .li-item {
   li {
-    color: white;
+    color: rgba(255, 255, 255, 0.5);
     list-style-type: none;
     font-size: 14px;
-    opacity: 60%;
     margin-bottom: 4px;
     font-weight: 400;
 
     &:hover {
-      opacity: 100%;
+      color: white;
+
       cursor: pointer;
     }
   }
