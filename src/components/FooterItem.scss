@@ -33,10 +33,9 @@
 
   li {
     opacity: 60%;
+    &:hover {
+      opacity: 100%;
+      cursor: pointer;
+    }
   }
-}
-
-.footer-socmed:hover {
-  transform: scale(1.5);
-  transition: 100ms;
 }

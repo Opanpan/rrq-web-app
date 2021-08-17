@@ -30,36 +30,16 @@ export default function FoooterItem() {
               <ul>
                 <li className="li-title">REX REGUM QEON</li>
                 <div className="li-item ">
-                  <a href="#">
-                    <li>About</li>
-                  </a>
-                  <a href="#">
-                    <li>Match</li>
-                  </a>
-                  <a href="#">
-                    <li>News</li>
-                  </a>
-                  <a href="#">
-                    <li>Videos</li>
-                  </a>
-                  <a href="#">
-                    <li>Shop</li>
-                  </a>
-                  <a href="#">
-                    <li>Partners</li>
-                  </a>
-                  <a href="#">
-                    <li>Brand Ambassador</li>
-                  </a>
-                  <a href="#">
-                    <li>RRQ Kingdom</li>
-                  </a>
-                  <a href="#">
-                    <li>RRQ Academy</li>
-                  </a>
-                  <a href="#">
-                    <li>Contact</li>
-                  </a>
+                  <li>About</li>
+                  <li>Match</li>
+                  <li>News</li>
+                  <li>Videos</li>
+                  <li>Shop</li>
+                  <li>Partners</li>
+                  <li>Brand Ambassador</li>
+                  <li>RRQ Kingdom</li>
+                  <li>RRQ Academy</li>
+                  <li>Contact</li>
                 </div>
               </ul>
             </Col>
@@ -67,24 +47,12 @@ export default function FoooterItem() {
               <ul>
                 <li className="li-title">DIVISION</li>
                 <div className="li-item ">
-                  <a href="#">
-                    <li>Mobile Legend</li>
-                  </a>
-                  <a href="#">
-                    <li>PUBG Mobile</li>
-                  </a>
-                  <a href="#">
-                    <li>FREE FIRE</li>
-                  </a>
-                  <a href="#">
-                    <li>VALORANT</li>
-                  </a>
-                  <a href="#">
-                    <li>FIFA</li>
-                  </a>
-                  <a href="#">
-                    <li>FORTNITE</li>
-                  </a>
+                  <li>Mobile Legend</li>
+                  <li>PUBG Mobile</li>
+                  <li>FREE FIRE</li>
+                  <li>VALORANT</li>
+                  <li>FIFA</li>
+                  <li>FORTNITE</li>
                 </div>
               </ul>
             </Col>
