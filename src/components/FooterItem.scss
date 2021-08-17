@@ -2,27 +2,22 @@
   background-color: #363636;
   padding: 30px;
 
+  .li-title {
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+
   li {
     color: white;
     list-style-type: none;
-  }
-
-  a {
-    color: white;
-    text-decoration: none;
-    :hover {
-      cursor: pointer;
+    h5 {
+      opacity: 60%;
       color: white;
-      opacity: 100%;
+      margin-bottom: 4px;
+      &:hover {
+        opacity: 100%;
+        cursor: pointer;
+      }
     }
-  }
-}
-
-.li-title {
-  font-weight: 700;
-  margin-bottom: 8px;
-
-  li {
-    opacity: 100%;
   }
 }
