@@ -29,47 +29,37 @@ export default function FoooterItem() {
             <Col className="col-auto">
               <ul>
                 <li className="li-title">REX REGUM QEON</li>
-                <div className="li-item ">
-                  <li>About</li>
-                  <li>Match</li>
-                  <li>News</li>
-                  <li>Videos</li>
-                  <li>Shop</li>
-                  <li>Partners</li>
-                  <li>Brand Ambassador</li>
-                  <li>RRQ Kingdom</li>
-                  <li>RRQ Academy</li>
-                  <li>Contact</li>
-                </div>
+                <li className="li-item">About</li>
+                <li className="li-item">Match</li>
+                <li className="li-item">News</li>
+                <li className="li-item">Videos</li>
+                <li className="li-item">Shop</li>
+                <li className="li-item">Partners</li>
+                <li className="li-item">Brand Ambassador</li>
+                <li className="li-item">RRQ Kingdom</li>
+                <li className="li-item">RRQ Academy</li>
+                <li className="li-item">Contact</li>
               </ul>
             </Col>
             <Col className="col-auto">
               <ul>
                 <li className="li-title">DIVISION</li>
-                <div className="li-item ">
-                  <li>Mobile Legend</li>
-                  <li>PUBG Mobile</li>
-                  <li>FREE FIRE</li>
-                  <li>VALORANT</li>
-                  <li>FIFA</li>
-                  <li>FORTNITE</li>
-                </div>
+                <li className="li-item">Mobile Legend</li>
+                <li className="li-item">PUBG Mobile</li>
+                <li className="li-item">FREE FIRE</li>
+                <li className="li-item">VALORANT</li>
+                <li className="li-item">FIFA</li>
+                <li className="li-item">FORTNITE</li>
               </ul>
             </Col>
             <Col className="col-auto">
               <ul>
                 <li className="li-title">FOLLOW US</li>
 
-                <div className="li-item d-flex justify-content-between">
-                  <a href="https://www.instagram.com/teamrrq/">
-                    <Image className="footer-socmed" src={Instagram} />
-                  </a>
-                  <a href="https://www.facebook.com/Team.RRQ">
-                    <Image className="footer-socmed" src={Facebook} />
-                  </a>
-                  <a href="https://www.youtube.com/teamrrq/">
-                    <Image className="footer-socmed" src={Youtube} />
-                  </a>
+                <div className="d-flex justify-content-between">
+                  <Image className="footer-socmed li-item " src={Instagram} />
+                  <Image className="footer-socmed li-item " src={Facebook} />
+                  <Image className="footer-socmed li-item " src={Youtube} />
                 </div>
               </ul>
             </Col>
