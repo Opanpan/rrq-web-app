@@ -37,18 +37,21 @@ export default function Header() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto flex-column">
               <Nav.Item>
-                <Nav.Link className="d-inline" href="#home">
-                  <Image className="socmed" src={Instagram} />
-                </Nav.Link>
-                <Nav.Link
-                  className="d-inline"
-                  href="https://www.youtube.com/channel/UCsE7IVpsU-jk6vAdBP9ZREg"
-                >
-                  <Image className="socmed" src={Youtube} />
-                </Nav.Link>
-                <Nav.Link className="d-inline" href="#home">
-                  <Image className="socmed" src={Facebook} />
-                </Nav.Link>
+                <Nav.Item className="d-inline">
+                  <a href="https://www.instagram.com/teamrrq/">
+                    <Image className="socmed" src={Instagram} />
+                  </a>
+                </Nav.Item>
+                <Nav.Item className="d-inline">
+                  <a href="https://www.youtube.com/channel/UCsE7IVpsU-jk6vAdBP9ZREg">
+                    <Image className="socmed" src={Youtube} />
+                  </a>
+                </Nav.Item>
+                <Nav.Item className="d-inline">
+                  <a href="https://www.facebook.com/Team.RRQ">
+                    <Image className="socmed" src={Facebook} />
+                  </a>
+                </Nav.Item>
                 <Button variant="warning" className="btn-login-member">
                   <h5>LOGIN MEMBERSHIP</h5>
                 </Button>
@@ -80,8 +83,10 @@ export default function Header() {
         ) : (
           ""
         )}
-        <Navbar.Brand href="https://rog.asus.com/id/">
-          <Image src={Rog} className="logo" />
+        <Navbar.Brand>
+          <a href="https://rog.asus.com/id/">
+            <Image href="https://rog.asus.com/id/" src={Rog} className="logo" />
+          </a>
           <Navbar.Toggle
             style={{ marginLeft: "16px" }}
             aria-controls="basic-navbar-nav"

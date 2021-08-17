@@ -9,7 +9,7 @@ import Tiktok from "../assets/img/tiktok-socmed.svg";
 
 export default function LastContent() {
   return (
-    <Container fluid className=" last-content-container ">
+    <Container id="tentang" fluid className=" last-content-container ">
       <Row>
         <Col>
           <div className="d-flex justify-content-center">
@@ -17,21 +17,31 @@ export default function LastContent() {
           </div>
         </Col>
       </Row>
-      <Row className="d-flex align-items-center">
+      <Row className="d-flex align-items-center justify-content-center">
         <Col>
-          <Image src={Facebook} />
+          <a href="https://www.facebook.com/Team.RRQ">
+            <Image src={Facebook} />
+          </a>
         </Col>
         <Col>
-          <Image src={Instagram} />
+          <a href="https://www.instagram.com/teamrrq/">
+            <Image src={Instagram} />
+          </a>
         </Col>
         <Col>
-          <Image src={Youtube} />
+          <a href="https://www.youtube.com/channel/UCsE7IVpsU-jk6vAdBP9ZREg">
+            <Image src={Youtube} />
+          </a>
         </Col>
         <Col>
-          <Image src={NimoTV} />
+          <a href="https://www.nimo.tv/rrq-lemon">
+            <Image src={NimoTV} />
+          </a>
         </Col>
         <Col>
-          <Image src={Tiktok} />
+          <a href="https://www.tiktok.com/@teamrrq?lang=en">
+            <Image src={Tiktok} />
+          </a>
         </Col>
       </Row>
     </Container>
